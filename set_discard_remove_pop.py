@@ -1,5 +1,5 @@
 """
-.remove(x)
+remove(x)
 This operation removes element x from the set.
 If element x does not exist, it raises a KeyError.
 The .remove(x) operation returns None.

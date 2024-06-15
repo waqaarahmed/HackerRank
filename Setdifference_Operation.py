@@ -37,6 +37,8 @@ The second line contains the space separated list of student roll numbers who ha
 The third line contains the number of students who have subscribed to the French newspaper.
 The fourth line contains the space separated list of student roll numbers who have subscribed to the French newspaper.
 
+
+
 Constraints
 
 Output Format

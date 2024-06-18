@@ -43,7 +43,6 @@ The next lines contains the , , and
 , under their respective column names.
 
 Constraints
-
 Output Format
 Print the average marks of the list corrected to 2 decimal places.
 
@@ -70,11 +69,9 @@ MARKS      CLASS      NAME       ID
 
 Sample Output
 TESTCASE 01
-
 78.00
 
 TESTCASE 02
-
 81.00
 """
 from collections import *

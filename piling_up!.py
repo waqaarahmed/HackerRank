@@ -1,4 +1,5 @@
 """
+
 Piling Up!
 There is a horizontal row of n cubes. The length of each cube is given. You need to 
 create a new vertical pile of cubes. The new pile should follow these directions: 
@@ -38,6 +39,7 @@ STDIN        Function
 Sample Output
 Yes
 No
+
 """
 from collections import deque as d
 

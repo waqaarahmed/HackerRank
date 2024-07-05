@@ -43,7 +43,10 @@ Sample Output
 
 Explanation
 UK and France repeat twice. Hence, the total number of distinct country stamps is
-(five)."""
+(five).
+
+"""
+
 N = int(input())
 country_name = set()
 for i in range(N):

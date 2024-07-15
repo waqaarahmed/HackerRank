@@ -1,13 +1,10 @@
-"""Polar coordinates are an alternative way of representing Cartesian coordinates or Complex Numbers.
+"""
 
-A complex number
-
-[Capture.PNG]
-is completely determined by its real part and imaginary part .
+Polar coordinates are an alternative way of representing Cartesian coordinates or Complex Numbers.
+A complex number [Capture.PNG] is completely determined by its real part and imaginary part .
 Here, is the imaginary unit.
 
 A polar coordinate (
-
 ) [Capture.PNG]
 
 is completely determined by modulus
@@ -51,7 +48,8 @@ Sample Output
  2.23606797749979 
  1.1071487177940904
 
-Note: The output should be correct up to 3 decimal places. """
+Note: The output should be correct up to 3 decimal places. 
+"""
 
 import cmath
 

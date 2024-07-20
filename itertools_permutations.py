@@ -1,8 +1,9 @@
-"""This tool returns successive length permutations of elements in an iterable.
-If is not specified or is None, then defaults to the length of the
- iterable, and all possible full length permutations are generated.
-Permutations are printed in a lexicographic sorted order. So, if the 
-input iterable is sorted, the permutation tuples will be produced in a sorted order.
+"""
+
+Itertools Permutation:
+This tool returns successive length permutations of elements in an iterable. If is not specified or is None, then defaults to the length of the iterable,
+and all possible full length permutations are generated. Permutations are printed in a lexicographic sorted order. So, if the input iterable is
+sorted, the permutation tuples will be produced in a sorted order.
 
 Sample Code
 >>> from itertools import permutations
@@ -51,7 +52,9 @@ KH
 
 Explanation
 All possible size permutations of the string "HACK" are printed 
-in lexicographic sorted order."""
+in lexicographic sorted order.
+
+"""
 
 from itertools import permutations
 s, k = input().split()

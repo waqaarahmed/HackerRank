@@ -1,6 +1,6 @@
-"""itertools.combinations(iterable, r)
-This tool returns the length subsequences of elements from the input iterable.
-Combinations are emitted in lexicographic sorted order. So, if the input iterable 
+"""
+itertools.combinations(iterable, r):
+This tool returns the length subsequences of elements from the input iterable. Combinations are emitted in lexicographic sorted order. So, if the input iterable 
 is sorted, the combination tuples will be produced in sorted order.
 
 Sample Code
@@ -14,9 +14,7 @@ Sample Code
 [(1, 1, 3, 3), (1, 1, 3, 3), (1, 1, 3, 3), (1, 3, 3, 3), (1, 3, 3, 3)]
 
 Task
-You are given a string S.
-Your task is to print all possible combinations, up to size k, 
-of the string in lexicographic sorted order.
+You are given a string S. Your task is to print all possible combinations, up to size k, of the string in lexicographic sorted order.
 
 Input Format
 A single line containing the string S and integer value k separated by a space.

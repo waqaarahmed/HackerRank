@@ -1,7 +1,6 @@
 """
 Calendar Module
-The calendar module allows you to output calendars and provides additional 
-useful functions for them.
+The calendar module allows you to output calendars and provides additional useful functions for them.
 
 class calendar.TextCalendar([firstweekday])
 This class can be used to generate plain text calendars.

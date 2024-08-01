@@ -1,4 +1,5 @@
-"""itertools.combinations_with_replacement(iterable, r)
+"""
+itertools.combinations_with_replacement(iterable, r):
 This tool returns length subsequences of elements from the input iterable allowing 
 individual elements to be repeated more than once.
 Combinations are emitted in lexicographic sorted order. So, if the input 

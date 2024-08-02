@@ -1,5 +1,5 @@
 '''
-
+Setdifference_Operation:
  [A-B.png] .difference()
 The tool .difference() returns a set with all the elements from the set that are not in an iterable.
 Sometimes the - operator is used in place of the .difference() tool, but it only operates on the set of elements in set.

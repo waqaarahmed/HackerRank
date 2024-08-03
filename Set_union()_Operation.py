@@ -1,9 +1,10 @@
 """
-Set .union() Operation
+.union() Operation:
 The .union() operator returns the union of a set and the set of elements in an 
 iterable. Sometimes, the | operator is used in place of .union() operator, but it 
 operates only on the set of elements in set. Set is immutable to the .union() 
 operation (or | operation).
+
 
 Example
 >>> s = set("Hacker")
@@ -25,6 +26,7 @@ set(['a', 'c', 'r', 'e', 'H', 'k', 'Rank'])
 >>> s | set("Rank")
 set(['a', 'R', 'c', 'r', 'e', 'H', 'k', 'n'])
 
+
 Task
 The students of District College have subscriptions to English and French newspapers. 
 Some students have subscribed only to English, some have subscribed to only French 
@@ -34,6 +36,7 @@ newspaper, and the other set is subscribed to the French newspaper. The same stu
 could be in both sets. Your task is to find the total number of students who have 
 subscribed to at least one newspaper.
 
+
 Input Format
 The first line contains an integer, n, the number of students who have subscribed to 
 the English newspaper.
@@ -42,8 +45,10 @@ The third line contains b, the number of students who have subscribed to the Fre
 newspaper.
 The fourth line contains b space separated roll numbers of those students. 
 
+
 Output Format
 Output the total number of students who have at least one subscription.
+
 
 Sample Input
 9
@@ -51,8 +56,10 @@ Sample Input
 9
 10 1 2 3 11 21 55 6 8
 
+
 Sample Output
 13
+
 """
 n = int(input())
 roll_num_eng = set(input().split())
